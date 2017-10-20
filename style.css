@@ -1,0 +1,54 @@
+button {
+        color: #60AED6;
+        background-color: black;
+        border: 6px solid #2E5575;
+        padding: 20px;
+        margin: 10px;
+        font-family: "Times new roman", sans-serif;
+        font-size: 30px;
+    cursor: pointer;
+    }
+
+    h1 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h2 {
+        color: darkblue;
+        text-align: ;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .container {
+        border: 2px solid white;
+        width: 730px;
+        height: auto;
+        background: url(back.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .songs{
+        margin-left: 30px;
+    }
+
+    .enjoy {
+        animation: moveit 10s linear infinite;
+    }
+
+    @keyframes moveit {
+        0% {
+            transform: translateX(7vw);
+        }
+        50% {
+            transform: translateX(600px);
+        }
+        100% {
+            transform: translateX(7vw);
+        }
+    }
